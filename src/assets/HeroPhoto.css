@@ -1,0 +1,9 @@
+.photo{
+    display: flex;
+    width: 100%;
+}
+
+.photo img {
+        width: 98.7vw;
+        height: 66vh;
+}

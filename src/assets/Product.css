@@ -1,0 +1,140 @@
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+    background-color: #e2e7e6;
+    margin: 4px;
+    margin-top: -89px;
+    padding: 0px 8px 11px 8px;
+    box-sizing: border-box;
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.box-item {
+    height: 100%;
+}
+
+.box-item h3 {
+    font-size: 1.5rem;
+    margin: 12px;
+    font-weight: bold;
+}
+
+.allhomeimg {
+    width: 96%;
+    margin-top: -5px;
+    height: 81%;
+}
+
+.all-images {
+    display: flex;
+}
+
+.home-images {
+    margin-left: 13px;
+}
+
+.home-images img {
+    height: 110px;
+    width: 130px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.homeimages2 {
+    margin-top: 14px;
+    display: flex;
+}
+
+.explore {
+    font-size: 12px;
+    margin-left: 13px;
+    text-decoration: none;
+    display: block;
+    margin-top: 29px;
+    color: #007185;
+    font-weight: 700;
+}
+
+.main-container {
+    padding: 0px 11px 15px 12px;
+}
+
+.container2 {
+    background-color: white;
+    white-space: nowrap;
+    overflow-x: auto;
+    height: 416px;
+}
+
+.container-line {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+}
+
+.container-line h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 12px;
+}
+
+.container-line a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #007185;
+}
+
+.slider-box {
+    margin: 16px;
+    margin-top: 68px;
+}
+
+.box-box {
+    background-color: #e2e7e6;
+    width: 224px;
+    /* height: 220px; */
+    margin: 10px;
+    display: inline-block;
+}
+
+.box-box img {
+    width: 191px;
+    height: 257px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+}
+
+.slider-line {
+    background-color: white;
+    line-height: 1.2rem;
+}
+
+.slider-line h6 {
+    color: #cc0c39;
+    /* font-weight: bold; */
+}
+
+.slider-line span {
+    border: 2px solid #cc0c39;
+    background-color: #cc0c39;
+    color: white;
+}
+
+p {
+    font-size: 12px;
+}

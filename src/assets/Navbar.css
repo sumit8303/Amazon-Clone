@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.navbar {
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  .amazon-logo img {
+    margin-left: 4px;
+    margin-top: 9px;
+    width: 100px;
+    height: 51px;
+  }
+
+  .address {
+    margin-left: 10px;
+  }
+
+  .address-icon {
+    display: flex;
+  }
+
+  .first-para {
+    font-size: 13px;
+    color: #cccccc;
+    margin-left: 16px;
+  }
+  .sec-para {
+    margin-left: 3px;
+    margin-top: -4px;
+  }
+
+  .search-bar {
+    display: flex;
+    height: 38px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    margin-left: 20px;
+  }
+
+  .select-bar {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 44px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    border: 1px solid;
+  }
+
+  .search-box {
+    width: 418px;
+    border: 1px solid black;
+    padding: 7px;
+  }
+
+  .search-icon {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 200, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  .india img {
+    width: 19px;
+    height: 14px;
+  }
+  .language-bar {
+    display: flex;
+    margin: 15px;
+    align-items: center;
+  }
+  .india {
+    margin: 4px;
+  }
+  .lang {
+    font-size: 16px;
+  }
+
+  .range-hover{
+    display: none;  
+    position: absolute;
+    top: 50px;
+    background-color: black;
+    width: 100px;
+  }
+  .language-bar:hover .range-hover{
+    display: block;  
+  }
+  
+
+  .signin {
+    font-size: 14px;
+}
+.account {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -4px;
+}
+
+.ret-ord {
+    margin-left: 21px;
+}
+
+.ret {
+    font-size: 14px;
+}
+
+.ord {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -4px;
+
+}
+
+.list {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    background-color: #232f3e;
+}
+
+ul {
+    display: flex;
+    color: white;
+    /* align-items: center; */
+    font-size: 14px;
+    width: 100%;
+    margin-right: 63px;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-left: -35px;
+}
+.main-cart{
+    display: flex;
+    margin-left: 29px;
+}
+
+.cart{
+    margin: 7px 0px -4px 5px;
+}
+
+.cart-icon{
+    font-size: 1.7rem;
+}
+
+.list-icon{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.list ul{
+    margin-right: 42px;
+}
